@@ -168,35 +168,35 @@
     <script>
       function valcanoResults() {
         let continent = prompt("What Continent do you live on?");
-        
+
         continent = continent.toLowerCase();
         let h2 = document.querySelector("h2");
         let p = document.querySelector("p");
         let img = document.getElementById("photo");
 
         if (continent === "north america") {
-            alert("We've found a great valcano in or near " + continent + ".");
+          alert("We've found a great valcano in or near " + continent + ".");
           img.src =
             "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/489/original/Mt-Baker-Wilderness.jpg?1666981301";
           h2.innerHTML = "You should visit Mount Baker in the USA";
           p.innerHTML =
             "Mount Baker soars 3286 meters over Washington State and is a glacier-covered andesitic stratovalcano. It boasts a beautiful ski hill with record breaking annual snowfall.";
         } else if (continent === "europe") {
-            alert("We've found a great valcano in or near " + continent + ".");
+          alert("We've found a great valcano in or near " + continent + ".");
           img.src =
             "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/513/original/etna.jpg?1666998524";
           h2.innerHTML = "You should visit Mount Etna in Italy";
           p.innerHTML =
             "Mount Etna is a 3357 meter tall stratovolcano in Sicily, Italy. It is the largest active volcano in Italy with a basal circumference of 140 km.";
         } else if (continent === "south america") {
-            alert("We've found a great valcano in or near " + continent + ".");
+          alert("We've found a great valcano in or near " + continent + ".");
           img.src =
             "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/512/original/Tungurahua.jpg?1666998516";
           h2.innerHTML = "You should visit Tungurahua in Ecuador";
           p.innerHTML =
             "Located in the Cordillera Oriental of Ecuador, Tungurhua's tip sits at 5023 meters above sea level. The name roughly translates to Throat of Fire.";
         } else if (continent === "asia") {
-            alert("We've found a great valcano in or near " + continent + ".");
+          alert("We've found a great valcano in or near " + continent + ".");
           img.src =
             "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/520/original/fuji.jpg?1666999609";
           h2.innerHTML = "You should visit Mount Fuji in Japan";
@@ -204,24 +204,27 @@
             "Mount Fuji, also known as Fugaku, is located on the island of Honshu and is the highest mountian in Japan. It is considered one of Japan's Three Holy Mountians along with Mount Tate and Mount Haku.";
         } else if (continent === "africa") {
           alert("We've found a great valcano in or near " + continent + ".");
-            img.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/511/original/cameroon.jpg?1666998510";
-            h2.innerHTML = "You should visit Mount Cameroon in Cameroon";
+          img.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/511/original/cameroon.jpg?1666998510";
+          h2.innerHTML = "You should visit Mount Cameroon in Cameroon";
           p.innerHTML =
             "Located in the South West region of Cameroon, this namesake valcano tops out at 4040 meters above sea level. Starting at the coast then soaring through a tropical rainforest, Mount Cameroon's bare summit may surprise with it's cold and windy climate.";
         } else if (continent === "australia") {
-            alert("We've found a great valcano in or near " + continent + ".");
+          alert("We've found a great valcano in or near " + continent + ".");
           img.src =
             "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/521/original/mount_agung.jpg?1666999684";
           h2.innerHTML = "You should visit Mount Agung in Indonesia";
           p.innerHTML =
             "Just a six hour flight from Sydney will land you in the wonderful world of Bali, Indonesia and in the shawdow of Mount Agung. Towering at 3031 meters, Mount Agung is home to one of the most important temples to the Balinese people, Pura Besakih. ";
-        } else if (continent==="antarctica") {
-            alert("We've found a great valcano in or near " + continent + ".");
-        img.src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/686/original/8533829.jpg?1667083911";
-        h2.innerHTML ="You should visit Mount Erebus 🥶";
-        p.innerHTML="Mount Erebus is the southermost active volcano on earth. This frigid summit sits at 3794 meters and is sure to put a nice feather in your adventure cap.";
+        } else if (continent === "antarctica") {
+          alert("We've found a great valcano in or near " + continent + ".");
+          img.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/686/original/8533829.jpg?1667083911";
+          h2.innerHTML = "You should visit Mount Erebus 🥶";
+          p.innerHTML =
+            "Mount Erebus is the southermost active volcano on earth. This frigid summit sits at 3794 meters and is sure to put a nice feather in your adventure cap.";
         } else {
-            alert("We don't know of this place.");
+          alert("We don't know of this place.");
           h2.innerHTML = "Welcome to Earth!";
           p.innerHTML =
             "We have not heard of your continent on these fair lands, but we're sure you will enjoy your visit.";
